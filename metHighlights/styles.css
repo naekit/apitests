@@ -1,0 +1,62 @@
+body{
+
+    background-color: #ccb57c;
+    color: #23292b9c;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    cursor: pointer;
+}
+.container{
+    width: 100%;
+    margin: 10% auto;
+}
+h1{
+    font-family: 'Noto Serif Display', serif;
+    color: #23292B;
+}
+h3{
+    padding: 0;
+    margin: 2px;
+}
+p{
+    color: #23292B;
+    text-decoration: overline #d21416;
+}
+.bioContainer{
+    /* display: flex;
+    flex-direction: column; */
+    width: 600px;
+    margin: 5px auto;
+    font-size: 10px;
+    justify-content: space-between;
+}
+.portraitFrame{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 300px;
+    background: #d4c3ac;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+#picDisplay{
+    display: block;
+    width: auto;
+    height: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+/* 
+
+Time Bar
+
+*/
+.round-time-bar {
+    width: 100%;
+    height: 2px;
+    margin: 0;
+  }
+  .round-time-bar div {
+    height: 2px;
+    background: linear-gradient(to bottom, #ffdc83, #E2D7c8);
+  }
